@@ -1,0 +1,88 @@
+.admin_container{
+    width: 100%;
+    height: 400px;
+    background-color: #edede9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    form{
+        width: 70%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        .form_conatiner{
+            padding: 30px 10px;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            label{
+               width: 100%;
+               height: 15%;
+               input{
+                width: 90%;
+                height: 30px;
+                padding-left: 5px;
+                border: none;
+                outline-color: aqua;
+               }
+            }
+            button{
+                width: 59%;
+                height: 40px;
+                background-color: #1d3557;
+                border: none;
+                color: white;
+            }
+        }
+        .form_conatiner_2{
+            width: 50%;
+            height: 100%;
+            padding: 30px 10px;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            label{
+               width: 100%;
+               height: 15%;
+               input{
+                width: 90%;
+                height: 30px;
+                padding-left: 5px;
+                border: none;
+                outline-color: aqua;
+               }
+            }
+        }
+
+    }
+    .admin_profile_pic{
+        width: 24%;
+        height: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.label{
+    width: 100%;
+    height: 40px;
+    background-color: #1d3557;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+

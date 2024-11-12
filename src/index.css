@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overscroll-behavior: none !important;
+}
+
+body,
+html {
+  scroll-behavior: smooth scroll;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  font-style: oblique;
+  line-height: 28px;
+  color: rgb(150, 145, 145);
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  font-style: oblique;
+  line-height: 28px;
+  color: rgb(128, 121, 121);
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 17px;
+  color: rgb(253, 251, 251);
+}
+
+
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 17px;
+  color: rgb(128, 121, 121);
+}

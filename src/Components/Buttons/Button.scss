@@ -1,0 +1,23 @@
+
+.container_wrapper{
+
+    button{  
+        font-family: "Quicksand", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 28px;
+         border-radius: 4px;
+         border: none;
+         background-color: #94d2bd;
+       
+    }
+
+    
+button:active{
+    color: white;
+    font-weight: 600;
+    background-color: #7678ed;
+ }
+}
+

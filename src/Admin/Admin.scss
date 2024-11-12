@@ -1,0 +1,76 @@
+.admin_page_section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .text_section{
+        width: 40%;
+        height: 80%;
+        border-top-left-radius: 130px;
+        background-color: #d8e2dc;
+        display: flex; 
+       align-items: center;
+        flex-direction: column;
+        padding: 100px 0px;
+        h3{
+            width: 80%;
+        }
+        h2{
+            width: 70%;
+        }
+    }
+    .form_section{
+        width: 30%;
+        height: 80%;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #d8e2dc;
+        form{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            div{
+                width: 100%;
+                height: 23%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                input{
+                    width: 80%;
+                    height: 40px;
+                    padding: 0px 20px;
+                    border-radius: 5px;
+                    border: 2px solid #a4c3b2;
+                    outline-color: #00ff66;
+                }
+            }
+          
+            button{
+                width: 120px;
+                height: 40px;
+                border: none;
+                border-radius: 4px;
+                background-color: #26c7667c;
+                color: white;
+            }
+            button:active{
+                background-color: #d66215dc;
+            }
+           
+        }
+        p span{
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

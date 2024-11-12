@@ -1,0 +1,85 @@
+ .container_wrapper_box_forTeachers{
+    form{
+        padding: 30px 10px;
+        width: 100%;
+        height: 60px;
+        background-color: whitesmoke;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        input{
+            width: 400px;
+            height: 45px;
+            border: none;
+            outline-color: aqua;
+            padding: 0px 10px;
+            ::placeholder{
+                color: rgb(197, 24, 24);
+                font-size: 23px;
+            }
+        }
+        select{
+            width: 100px;
+            height: 45px;
+            padding-left: 5px;
+        }
+        button{
+            width: 100px;
+            height: 45px;
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+        }
+    }
+ }
+ 
+.table_container{
+    width: 100%;
+    height: 469px;
+    overflow-x: scroll;
+    table{
+        width: 100%;
+        caption{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            font-size: 27px;
+            cursor: pointer;
+            button{
+                border: none;
+                background-color: white;
+                color: rgb(219, 11, 11);
+                font-size: 20px;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        tr{
+            th{
+                width: auto;
+                height: 30px;
+                background-color: rgb(161, 161, 168);
+                color: rgb(44, 43, 43);
+            }
+            td{
+                width: auto;
+                height: 30px;
+                background-color: rgb(114, 187, 142);
+                padding: 0px 60px;
+                button{
+                    border: none;
+                    background-color: red;
+                    color: white;
+                    &:active{
+                        background-color: greenyellow;
+                    }
+                }
+            }
+        } 
+    }
+}
